@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url('./../../Assets/Fonts/Merriweather-Regular.eot');
+    src: local('☺'), url('./../../Assets/Fonts/Merriweather-Regular.woff') format('woff'), url('./../../Assets/Fonts/Merriweather-Regular.ttf') format('truetype'), url('./../../Assets/Fonts/Merriweather-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Merriweather;
+
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Merriweather;
+
+
+}
+
+
+.mainmain {
+    width: 100%;
+}
+
+.main {
+    max-width: 1216px !important;
+    margin: 0 auto !important;
+}
+
+
+.text {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    padding: 25px 0;
+    color: #343030;
+
+
+}
+
+.block {
+    box-sizing: inherit;
+}
+
+.block__block {
+    max-width: 281px;
+    border: 1px solid #E1E1E1;
+
+}
+
+.body {
+    padding: 10px 0 30px 0px;
+}
+
+.hed {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    text-align: left;
+    padding: 10px 0 30px 30px;
+    color: #343030;
+
+
+}
+
+img.img {
+    width: 100%;
+}
+
+.priceold {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #A0A0A0;
+
+
+}
+
+.pricenew {
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #343030;
+
+}
+
+button.add {
+    padding: 13px 25px;
+    background: #403432;
+
+}
+
+button.add:hover {
+    padding: 13px 25px;
+    background: #776763;
+
+}
+
+button.addCart {
+    padding: 13px 25px;
+    background: #5B3A32;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+
+}

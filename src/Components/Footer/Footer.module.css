@@ -1,0 +1,99 @@
+.footer{
+
+    left: 0px;
+
+    width:100%;
+    max-width: 1216px !important;
+
+    margin:0 auto !important;
+}
+.footer__footer{
+    width:100% ;
+   background-color: #ECEAEA;
+    height: 97px;
+
+}
+.adress{
+
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #555555;
+}
+.phone{
+
+
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+
+    color: #555555;
+
+
+}
+
+.hr {
+    margin-top: -5px;
+
+
+}
+
+.li  {
+    display: inline;
+    margin-right: 5px;
+    color:#343030;
+ text-decoration: none;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 25px;
+
+}
+input{
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #E5E5E5;
+    font-size: 14px;
+
+    color: #9F9F9F;
+}
+button{padding: 5px;
+    background: #403432;
+    border-radius: 0px;
+    border: 0px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: #FFFFFF;
+
+}
+
+
+/*position: absolute;*/
+/*left: 35%;*/
+/*right: 62.19%;*/
+/*top: 3.85%;*/
+/*bottom: 93.96%;*/
+
+/*font-family: Merriweather;*/
+/*font-style: normal;*/
+/*font-weight: normal;*/
+/*font-size: 14px;*/
+/*line-height: 150%;*/
+
+/*!* identical to box height, or 21px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+
+/*color: #343030;*/
