@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../Fonts/CenturyGothic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-style: normal;
+    src: url('../../Fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+}
+
+
+
+
+
+
+
+.header__nav {
+
+    margin-top: -42px;
+
+}
+
+
+.header__nav__v {
+
+    margin: 50px auto;
+    text-align: center;
+    margin-right:50%;
+    width: 100vw;
+
+}
+
+a{color:#fff}
+.nav__link {
+    text-decoration: none;
+
+    margin: 0 25px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+
+}
+
+.nav__link:hover {
+    border-bottom: 2px solid #30BB97;
+    color:#30BB97;
+    padding: 2px 0;
+
+}
+
+nav__link:active {
+    border-bottom: 2px solid #30BB97;
+    color:#30BB97;
+    padding: 2px 0;
+
+}
+
+.nav__link__v {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+    list-style-type: none;
+}
+

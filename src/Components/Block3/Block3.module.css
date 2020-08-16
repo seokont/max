@@ -1,0 +1,164 @@
+/*@font-face {*/
+/*    font-family: 'Century Gothic';*/
+/*    font-style: normal;*/
+/*    font-weight: bold;*/
+/*    src: url('../../Fonts/CenturyGothic.woff') format('woff');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'HelveticaNeueCyr-Roman';*/
+/*    font-style: normal;*/
+/*    src: url('../../Fonts/HelveticaNeueCyr-Roman.woff') format('woff');*/
+/*}*/
+
+
+/*.container {*/
+/*    width: 100%;*/
+/*    max-width: 1450px;*/
+/*    margin: 0 auto;*/
+/*    display: grid;*/
+
+/*    grid-template-columns: repeat(2,1fr);*/
+/*    grid-template-rows: auto;*/
+/*    grid-template-areas: 'o k';*/
+/*    justify-items: stretch;*/
+/*    align-items: stretch ;*/
+
+
+
+
+/*}*/
+
+/*.intro3 {*/
+/*    height: 110vh;*/
+/*    width: 100%;*/
+/*    background-color: white;*/
+/*    display: grid;*/
+/*    padding-top: 150px;*/
+
+
+
+
+
+/*}*/
+
+/*!*button {*!*/
+/*!*    color: #fff;*!*/
+/*!*    text-decoration: none;*!*/
+/*!*    user-select: none;*!*/
+/*!*    background: #30BB97;*!*/
+/*!*    border: 0;*!*/
+/*!*    width: 220px;*!*/
+/*!*    height: 70px;*!*/
+/*!*    font-size: 22px;*!*/
+/*!*    border-radius: 100px;*!*/
+/*!*    display: grid;*!*/
+/*!*    grid-template: 220px / auto auto;*!*/
+/*!*    justify: center;*!*/
+
+
+/*!*}*!*/
+
+/*.item__o {*/
+/*    grid-area: o;*/
+/*    display: grid;*/
+/*    justify-content: center ;*/
+
+
+
+
+
+
+/*}*/
+
+/*.item__k {*/
+/*    grid-area: k;*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*}*/
+
+
+
+
+
+/*.block3__subtitle {*/
+/*    font-family: 'HelveticaNeueCyr-Roman';*/
+/*    color: #929ba4;*/
+/*    font-size: 24px;*/
+/*    line-height: 34px;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+/*!*.block3__button {*!*/
+/*!*    text-decoration: none;*!*/
+/*!*    text-align: center;*!*/
+/*!*    padding: 21px 0;*!*/
+/*!*    border: none;*!*/
+/*!*    -webkit-border-radius: 50px;*!*/
+/*!*    -moz-border-radius: 50px;*!*/
+/*!*    border-radius: 50px;*!*/
+/*!*    font-family: 'Century Gothic';*!*/
+/*!*    font-size: 21px;*!*/
+/*!*    font-weight: bold;*!*/
+/*!*    color: #30bb97;*!*/
+/*!*    background-image: url("../../Assets/readmore.png");*!*/
+/*!*    background-repeat: no-repeat;*!*/
+/*!*    background-position: right 35% top 20%, 0 0;*!*/
+/*!*    background-size: 20px auto, 100%;*!*/
+/*!*    cursor: pointer;*!*/
+
+/*!*}*!*/
+
+
+
+
+
+
+/*.img__iphone {*/
+
+
+/*}*/
+
+/*.launc {*/
+
+/*    margin-top: 50px;*/
+/*}*/
+
+/*.intro__dot__item{*/
+/*    width: 8px;*/
+/*    height: 8px;*/
+/*    background-color: #30bb97;*/
+/*    margin: 35px 0;*/
+/*}*/
+
+/*.intro__dot{*/
+
+/*    margin:0 auto;*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*}*/
+
+
+/*p{color:#fff}*/
+
+
+
+
+
+
+
+
+
+/*.block3__content__content{*/
+/*    display: grid;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.block3__content{*/
+/*    display: grid;*/
+/*    grid-columns: 460px;*/
+/*    grid-template-columns: auto auto ;*/
+/*    padding: 0 0 0 40px;*/
+
+
+/*}*/
+

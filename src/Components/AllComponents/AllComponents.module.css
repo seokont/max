@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../Fonts/CenturyGothic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-style: normal;
+    src: url('../../Fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+}
+
+/*==========================================================================================================*/
+/* HEADER     ||---------------------------- */
+/*==========================================================================================================*/
+
+/*------------------------------------------------------------------*/
+/* Header Style */
+/*------------------------------------------------------------------*/
+.header {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    z-index: 1000;
+    color: #fff;
+    width: 100%;
+    height: 94px;
+    transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
+
+.header.header-prepare, .header.header-light.header-prepare {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.header.header-dark.header-prepare {
+    background-color: rgba(54, 54, 54, 0.95);
+    border-bottom: 0px none;
+}
+
+.header.header-fixed {
+    display: block;
+    margin-top: 0 !important;
+    position: fixed;
+    height: 64px;
+}
+
+.header-inner {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.header-fixed .logo a {
+    width: 115px;
+    margin-top: 23px;
+    /*margin-bottom: 15px;*/
+    transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
+
+.header-fixed .nav-menu ul.nav-menu-inner > li > a {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+/*header Logo style*/
+.header.header-prepare .logo a img.logo-light,
+.header .logo a img.logo-dark {
+    opacity: 0;
+}
+
+.header .logo a img.logo-light,
+.header.header-prepare .logo a img.logo-dark,
+.header.header-light .logo a img.logo-dark {
+    opacity: 1;
+}
+
+.header.header-dark.header-prepare .logo a img.logo-dark,
+.header.header-dark .logo a img.logo-dark {
+    opacity: 0;
+}
+
+.header.header-dark.header-prepare .logo a img.logo-light,
+.header.header-dark .logo a img.logo-light {
+    opacity: 1;
+}
+
+@media all and (min-width: 1025px) {
+
+    /*header nav style*/
+    .header.header-prepare .nav-menu ul.nav-menu-inner > li > a {
+        color: #323232;
+    }
+
+    .header.header-prepare .nav-menu ul.nav-menu-inner > li:hover > a,
+    .header.header-prepare .nav-menu ul.nav-menu-inner > li > a:hover {
+        color: #e6ae49;
+    }
+
+    .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner > li > a {
+        color: #fff;
+    }
+
+    .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner > li:hover > a,
+    .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner > li > a:hover {
+        color: #e6ae49;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        height: 64px;
+    }
+
+    .header-inner {
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        display: table;
+        width: 100%;
+    }
+
+    .header .logo a {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 96px;
+        transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+    }
+}

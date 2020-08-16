@@ -1,0 +1,35 @@
+build-develop:
+  stage: build
+  only:
+    - develop
+  image: docker:latest
+  variables:
+    GIT_STRATEGY: fetch
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  script:
+    - export DOCKER_HOST="tcp://localhost:2375"
+    - docker build --pull -t ${CI_REGISTRY_IMAGE}:dev-${CI_PIPELINE_ID} -f ./k8s/Dockerfile .
+    - docker push ${CI_REGISTRY_IMAGE}:dev-${CI_PIPELINE_ID}
+    - docker tag ${CI_REGISTRY_IMAGE}:dev-${CI_PIPELINE_ID} ${CI_REGISTRY_IMAGE}:dev-latest
+    - docker push ${CI_REGISTRY_IMAGE}:dev-latest
+
+deploy-develop:
+  stage: deploy
+  only:
+    - develop
+  image: txn2/docker-kubectl
+  variables:
+    GIT_STRATEGY: none
+  services:
+    - docker:dind
+  script: |
+    kubectl set image deployment/wbfr wbfr=${CI_REGISTRY_IMAGE}:dev-${CI_PIPELINE_ID} \
+    --namespace="dev" \
+    --server="${K8_CLUSTER_SERVER}" \
+    --token="${K8_SECRET_TOKEN}" \
+    --insecure-skip-tls-verify=true

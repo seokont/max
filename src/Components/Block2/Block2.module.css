@@ -1,0 +1,19 @@
+.text {
+    position: relative;
+    font-size: 21px;
+    color: #30bb97;
+    padding-left: 10px;
+    fontFamily: 'Century Gothic';
+    font-weight: bold;
+}
+
+.text::before {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 29px;
+    left: 140px;
+    top: 5px;
+
+    background: url("../../Assets/rows-green.png") center 0 no-repeat;
+}

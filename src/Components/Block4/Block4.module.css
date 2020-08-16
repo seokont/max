@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../Fonts/CenturyGothic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-style: normal;
+    src: url('../../Fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    display: grid;
+    height: 100vh;
+    padding: 70px 0 30% 0;
+    grid-row-gap: 25px;
+}
+
+
+.container__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'o k';
+    justify-content: space-evenly;
+    grid-column-gap: 100px;
+    padding: 0 60px;
+
+
+}
+
+.block4__title {
+    font-family: 'Century Gothic';
+    color: #fff;
+    font-size: 130px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.block4__span {
+    color: #30bb97;
+}
+
+.item__o {
+    grid-area: o;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+
+}
+
+.item__k {
+    grid-area: k;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+
+
+}
+
+
+.block4__content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 45px;
+    padding: 100px 0;
+}
+
+
+.block4__header {
+    font-family: 'Century Gothic';
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.block4__text {
+    color: #829da7;
+    font-size: 20px;
+    font-family: 'HelveticaNeueCyr-Roman';
+
+
+}
+
+
+
+
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #30BB97;
+
+}
+
+/*.container {*/
+/*    width: 100%;*/
+/*    max-width: 1450px;*/
+/*    margin: 0 auto;*/
+/*    display: grid;*/
+
+/*    grid-template-columns: repeat(2, 1fr);*/
+/*    grid-template-rows: auto;*/
+/*    grid-template-areas: 'o k';*/
+/*    justify-items: stretch;*/
+/*    align-items: stretch;*/
+
+
+/*}*/
+
+/*.intro3 {*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+
+/*    display: grid;*/
+/*    padding: 10px 0;*/
+
+
+/*}*/
+
+/*!*button {*!*/
+/*!*    color: #fff;*!*/
+/*!*    text-decoration: none;*!*/
+/*!*    user-select: none;*!*/
+/*!*    background: #30BB97;*!*/
+/*!*    border: 0;*!*/
+/*!*    width: 220px;*!*/
+/*!*    height: 70px;*!*/
+/*!*    font-size: 22px;*!*/
+/*!*    border-radius: 100px;*!*/
+/*!*    display: grid;*!*/
+/*!*    grid-template: 220px / auto auto;*!*/
+/*!*    justify: center;*!*/
+
+
+/*!*}*!*/
+
+/*.item__o {*/
+/*    grid-area: o;*/
+/*    display: grid;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+/*.item__k {*/
+/*    grid-area: k;*/
+
+/*}*/
+
+
+/*.block4__title {*/
+/*    font-family: 'Century Gothic';*/
+/*    color: #fff;*/
+/*    font-size: 130px;*/
+/*    line-height: 80px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.block4__subtitle {*/
+/*    font-family: 'HelveticaNeueCyr-Roman';*/
+/*    color: #929ba4;*/
+/*    font-size: 24px;*/
+/*    line-height: 34px;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+/*.block4__button {*/
+/*    text-decoration: none;*/
+/*    text-align: left;*/
+/*    padding: 21px 30px;*/
+/*    border: none;*/
+/*    -webkit-border-radius: 50px;*/
+/*    -moz-border-radius: 50px;*/
+/*    border-radius: 50px;*/
+/*    font-family: 'Century Gothic';*/
+/*    font-size: 21px;*/
+/*    font-weight: bold;*/
+/*    color: #fff;*/
+/*    background-image: url("../../Assets/readmore.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: left 0% top 50%, 0 0;*/
+/*    background-size: 20px auto, 100%;*/
+/*    cursor: pointer;*/
+
+/*}*/
+
+/*.img__iphone {*/
+
+
+/*}*/
+
+/*.launc {*/
+
+/*    margin-top: 50px;*/
+/*}*/
+
+/*.intro__dot__item {*/
+/*    width: 8px;*/
+/*    height: 8px;*/
+/*    background-color: #30bb97;*/
+/*    margin: 35px 0;*/
+/*}*/
+
+/*.intro__dot {*/
+
+/*    margin: 0 auto;*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.title__screen {*/
+/*    font-family: 'HelveticaNeueCyr-Roman';*/
+/*    color: #000;*/
+/*    font-size: 40px;*/
+/*    line-height: 40px;*/
+/*    font-weight: bold;*/
+
+/*}*/
+
+/*p {*/
+/*    color: #fff*/
+/*}*/
+
+/*.block4__span {*/
+/*    color: #30bb97;*/
+/*}*/
+
+/*.block4__content {*/
+/*    display: grid;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    grid-template-columns: auto;*/
+/*    grid-template-rows: auto;*/
+/*}*/
+
+/*.block4__content__title {*/
+/*    font-family: 'Century Gothic';*/
+/*    font-size: 20px;*/
+/*    font-weight: bold;*/
+
+/*}*/
+
+/*.block4__content__content {*/
+/*    display: grid;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.divider {*/
+/*    width: 100%;*/
+/*    height: 1px;*/
+/*    background-color: #30BB97;*/
+/*}*/
+
+/*.block4__header {*/
+/*    font-family: 'Century Gothic';*/
+/*    font-size: 30px;*/
+/*    font-weight: bold;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.block4__text {*/
+/*    color: #829da7;*/
+/*    font-size: 20px;*/
+/*    font-family: 'HelveticaNeueCyr-Roman';*/
+
+
+/*}*/
+
